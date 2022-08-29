@@ -200,10 +200,10 @@ body {
   }
   .header-contact-icon {
     fill: var(--primary-color);
-    margin-right: 10px;
+    margin-right: 9px;
     transition: fill var(--transition-dur-func);
   }
-  .header-contact-email:hover .header-contact-icon, .header-contact-email:focus .header-contact-icon, .header-contact-phone-number:hover .header-contact-icon, .header-contact-phone-number:focus .header-contact-icon {
+  .header-contact__email:hover .header-contact-icon, .header-contact__email:focus .header-contact-icon, .header-contact__phone-number:hover .header-contact-icon, .header-contact__phone-number:focus .header-contact-icon {
     fill: var(--hover-color);
   }
 }
