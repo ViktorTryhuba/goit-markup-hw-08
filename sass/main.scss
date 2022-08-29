@@ -1,0 +1,28 @@
+@import './utils/variables';
+@import './utils/vissualy-hidden';
+
+@import './base/common';
+@import './base/section';
+@import './base/container';
+
+/*main page*/
+@import './layout/_header.scss';
+@import './layout/_hero.scss';
+@import './layout/_our-advantages.scss';
+@import './layout/_photos-of-advantages.scss';
+@import './layout/_our-team.scss';
+@import './layout/_regular-costumers.scss';
+@import './layout/_footer.scss';
+
+/*portfolio page*/
+@import './layout/_buttons-portfolio.scss';
+@import './layout/_all-products-portfolio.scss';
+
+@import './components/titles';
+@import './components/social-list';
+@import './components/logo';
+@import './components/btn';
+@import './components/modal-form';
+@import './components/modal-window';
+@import './components/backdrop';
+@import './components/mobile-menu';
